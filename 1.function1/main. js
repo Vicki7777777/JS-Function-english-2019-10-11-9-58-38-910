@@ -1,0 +1,7 @@
+function reverseString(message){
+  var i = (message.length)-1;
+  for(var x = i; x>=0; x--){
+ 	 document.write(message.charAt(x));
+  }
+}
+reverseString('hello'); // should return 'olleh'
